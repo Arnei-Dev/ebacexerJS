@@ -6,5 +6,5 @@ function obterMedia(){
 
     var media = (a+b+c)/3;
 
-    document.getElementById("media").innerHTML = "Média: " + media;
+    document.getElementById("media").innerHTML = alert ("Média: " + media)
 }

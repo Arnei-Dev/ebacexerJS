@@ -8,23 +8,36 @@
     <link rel="stylesheet" href="./01-exercicio/css/style.css">
 </head>
 <body>
-    <Section>
-        <h1>Calcular Média</h1>
+    <h2>Digite 3 números para calcular a média</h2>
+    <div class="box">
+        
+        
+            <fieldset>
 
-        <p>Digite 3 números para calcular a média</p>
+               <legend><b>Calcular Média</b></legend>
 
-        <input type="number" id="a">
-        <input type="number" id="b">
-        <input type="number" id="c">
+               
+                   <div class="inputBox">
+                        <input type="number" id="a"><br>
+                        <input type="number" id="b"><br>
+                        <input type="number" id="c"><br>
+                   
 
-        <button onclick="obterMedia()">
-            Obter média
-        </button>
+                   <button onclick="obterMedia()">
+                         Obter média
+                   </button>
 
-        <div id="media">
+                <!--<div id="media">
+                    
+                </div>-->
+                  </div>
 
-        </div>
+               
+
+            </fieldset>
+    
+        
         <script src="./01-exercicio/javaScript/exer01.js"></script>
-    </Section>
+    </div>
 </body>
 </html>
