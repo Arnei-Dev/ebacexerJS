@@ -33,7 +33,7 @@ function compraCarro(){
   return valorCarro / prestacao;
 }
 console.log("Valor do Carro...... R$ 30.000,00 Reais\nEntrada de............. R$3000,00 Reais")
-console.log("Parcelas de...... " + compraCarro(valorEntrada)+ "x de R$" + prestacao + ",00 Reais");
+console.log("Parcelas de...... " + compraCarro()+ "x de R$" + prestacao + ",00 Reais");
 
 console.log("=======================================================================");
 
